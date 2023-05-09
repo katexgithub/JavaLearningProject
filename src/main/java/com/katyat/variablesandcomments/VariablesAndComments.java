@@ -39,6 +39,7 @@ public class VariablesAndComments {
         lowerLimitOfDoubleDataType = -1.7E+308d;
         upperLimitOfDoubleDataType = 1.7E+305;
 
+        
         System.out.println(firstChartFromAscii);
     }
 
