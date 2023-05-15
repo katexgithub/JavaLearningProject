@@ -1,7 +1,5 @@
 package com.katyat.classesandobjects.autoservicetask;
 
-import java.util.Date;
-import java.util.List;
 
 public class Garage {
 

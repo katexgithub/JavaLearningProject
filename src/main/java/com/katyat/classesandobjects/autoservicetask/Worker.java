@@ -7,7 +7,4 @@ public class Worker {
     int age;
     String specialization;
     boolean isExperienced;
-
-
-
 }

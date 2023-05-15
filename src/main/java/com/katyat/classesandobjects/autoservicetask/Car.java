@@ -10,17 +10,17 @@ public class Car {
     String fuelType;
 
     Car(String makeParametruDeIntrare, String modelFormalParameter, int productionYear, String fuelType) {
-        make = makeParametruDeIntrare;
+        this.make = makeParametruDeIntrare;
         this.model = modelFormalParameter;
         this.productionYear = productionYear;
         this.fuelType = fuelType;
-        System.out.println("In urma executiei acestul constructor 4 parametri se creaza un nou obiect despre care nu cunoastem price, gearType, ka");
+        System.out.println("In urma executiei acestul constructor 4 parametri se creaza un nou obiect despre care nu cunoastem price, gearType, km");
     }
 
-     Car(String make, String model){
+    Car(String make, String model) {
         this.make = make;
         this.model = model;
-         System.out.println("A fost creata o masina despre care cunoastem doar marca si modelul ");
-     }
+        System.out.println("A fost creata o masina despre care cunoastem doar marca si modelul ");
+    }
 
 }
