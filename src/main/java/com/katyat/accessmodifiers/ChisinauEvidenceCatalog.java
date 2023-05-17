@@ -27,5 +27,11 @@ public class ChisinauEvidenceCatalog {
         elenaProfir.address = "Metropolitul Bodoni 8";
         System.out.println(elenaProfir.toString());
         Person.printNumberOfPeople();
+
+        Person svetlanaTurcan = new Person(464558882668L, "Svetlana Turcan", false, 21);
+        svetlanaTurcan.address = "Vieru 7";
+        svetlanaTurcan.gender = "Femenin";
+        System.out.println(svetlanaTurcan.toString());
+        Person.printNumberOfPeople();
     }
 }
